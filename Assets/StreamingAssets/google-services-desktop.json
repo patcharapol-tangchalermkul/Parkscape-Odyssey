@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "665812741473",
+    "firebase_url": "https://segp-03-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "segp-03",
+    "storage_bucket": "segp-03.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665812741473:android:21a98167c8588ec3f66920",
+        "android_client_info": {
+          "package_name": "com.unity.path2power"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOntnNSaaElj4hG52xMBioxgsN9xa2tvQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

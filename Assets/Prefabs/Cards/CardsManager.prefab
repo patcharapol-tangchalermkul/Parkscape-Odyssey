@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &231616820920950792
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1417799052871888863}
+  - component: {fileID: 8044861548575044370}
+  m_Layer: 0
+  m_Name: CardsManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1417799052871888863
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 231616820920950792}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.1419494, y: 0.9753933, z: -0.05335886}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8044861548575044370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 231616820920950792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8b3c50be81134620842f50684329b5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardPrefab: {fileID: 3113442196626641446, guid: 7e96f652686a549da956d097dbaac1ec,
+    type: 3}
+  cardNames: 00000000010000000200000003000000040000000500000006000000070000000800000009000000
+  cardImgs:
+  - {fileID: 21300000, guid: ceb93c28982664b1a8a6e66eba92b912, type: 3}
+  - {fileID: 21300000, guid: e2d797106944147f9b631094f81adf70, type: 3}
+  - {fileID: 21300000, guid: c1cfa65bab35d4ca69528e5a877df028, type: 3}
+  - {fileID: 21300000, guid: b6cd765f21e45441891e531c745e269c, type: 3}
+  - {fileID: 21300000, guid: aa9cf41bd8cc84c269ed51d4ba6db560, type: 3}
+  - {fileID: 21300000, guid: 771fe5b49ea9f46ea801076abb31b249, type: 3}
+  - {fileID: 21300000, guid: e2918cff43a2648bc8e988276e95cc50, type: 3}
+  - {fileID: 21300000, guid: 2652081ee22b1464191220c789da9a08, type: 3}
+  - {fileID: 21300000, guid: 9d666967b917d4b04b99de6cbcdd79d9, type: 3}
+  - {fileID: 21300000, guid: cf66714815205400293756531fdfc94b, type: 3}
+  cardStats:
+  - 5 ATK
+  - 5 DEF
+  - ALLIES +1 STRENGTH
+  - +5 STRENGTH -10 HP
+  - +2 SPD
+  - AN ALLY +2 SPD
+  - ALLIES +2 HP, EXHAUST
+  - -5 HP, 10 ATK
+  - ENEMY -5 STRENGTH
+  - DRAW 2 CARDS
+  cardRarities: 00000000000000000000000000000000010000000100000001000000010000000200000001000000
+  cardsToCreate: 1

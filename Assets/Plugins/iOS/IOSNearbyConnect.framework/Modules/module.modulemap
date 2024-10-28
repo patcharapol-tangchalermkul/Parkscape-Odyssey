@@ -1,0 +1,11 @@
+framework module IOSNearbyConnect {
+  umbrella header "IOSNearbyConnect.h"
+  export *
+
+  module * { export * }
+}
+
+module IOSNearbyConnect.Swift {
+  header "IOSNearbyConnect-Swift.h"
+  requires objc
+}
